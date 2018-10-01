@@ -2,7 +2,7 @@ import xlrd
 
 loc = ("sample.xl")  #change accordingly
 wb = xlrd.open_workbook(loc)
-sheet=wb.sheet_by_index(0)
+sheet=wb.sheet_by_index(0) #for sheet number:0
 
 
 print('Sheet name:',sheet.name) # name of sheet
