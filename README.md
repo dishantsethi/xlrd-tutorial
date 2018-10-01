@@ -7,3 +7,5 @@ This script extract data of excel file in different ways and stores data of rows
 3) source venv/bin/activate (to activate virtualenv)
 4) pip install -r requirements.txt
 
+Dont forget to store an excel file in excel-to-dict folder
+
